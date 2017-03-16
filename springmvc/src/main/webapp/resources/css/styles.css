@@ -1,0 +1,122 @@
+	* {
+		margin: 0;
+		padding: 0;
+		indent: 0;
+	}
+	
+	#productList {
+		border: solid gray 1px;
+		border-collapse: collapse;
+	}
+	#productList th, #productList td {
+		border: solid gray 1px;
+		padding: 8px;
+	}
+	#productList tr:NTH-CHILD(even) {
+		background-color: #F2F2F2;
+	}
+	input[type=number] {width: 80px;}
+	
+	.nav {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #666666;
+	}
+	
+	.nav li {
+	    float: left;
+	    
+	}
+	
+	.nav li a, .nav li span {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	
+	.nav li a:hover:not(.active) {
+	    background-color: #111;
+	}
+	
+	.active {
+	    background-color: #4CAF50;
+	}
+	
+	.products {
+		width: 250px;
+		display: inline-block;
+		margin: 16px;
+	}
+	
+	.products ul {
+		list-style-type: none;
+	}
+	
+	.orders-product-div {
+		margin: 16px;
+		width: 30%;
+	}
+	
+	.orders-product-table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+	
+	.orders-product-table th {
+		background-color: #4CAF50;
+    	color: white;
+	}
+	
+	.orders-product-table tbody tr:NTH-CHILD(even) {
+		background-color: #c8e8ca;
+    	
+	}
+	
+	.orders-product-table thead, .orders-product-table tbody {
+		border: 1px solid black;
+		
+		
+	}
+	
+	.orders-product-table th, .orders-product-table tbody td {
+		border: 1px solid black;
+	}
+	
+	.login-div {
+		width: 30%;
+		margin: 16px auto;
+		border: 1px solid #4CAF50;
+	}
+	
+	.login-div-header {
+		background-color: #4CAF50;
+    	color: white;
+	}
+	
+	.login-div table {
+		width: 100%;
+		
+	}
+	
+	
+	
+	.products-pagination a {
+	    color: black;
+	    padding: 8px 16px;
+	    text-decoration: none;
+	}
+	
+	.products-pagination a.active {
+	    background-color: #4CAF50;
+	    color: white;
+	}
+	
+	
+	
+	.products-pagination a:hover:not(.active) {background-color: #ddd;}
+		
+	
